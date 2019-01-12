@@ -1,0 +1,18 @@
+{
+  "name": "meta-file-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.1"
+  },
+  "devDependencies": {
+    "electron-reload": "^1.4.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <ul class="head__list">
+            <li class="head__list-item">Basic</li>
+            <li class="head__list-item">Permission</li>
+            <li class="head__list-item">Actions</li>
+        </ul>
+    </div>
+    <div class="content">
+        <form>
+            <label for="filePicker" class="content__file-label">
+                    <button class="content__form-button" type="button">X-></button>
+                    Select the file
+            </label>
+        </form>
+    </div>
+    <input
+            id="filePicker"
+            name="filePicker"
+            type="file"
+            class="content__file-picker"
+            multiple
+    >
+    <script src="./render.js"></script>
+</body>
+</html>
